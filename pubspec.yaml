@@ -1,0 +1,52 @@
+name: flutter_base_project
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+    #Common
+  google_fonts: ^3.0.1
+  html: ^0.15.0
+  http: ^0.13.5
+  intl: ^0.17.0
+  url_launcher: ^6.1.6
+  fluttertoast: ^8.0.9
+  connectivity_plus: ^2.3.9
+  shared_preferences: ^2.0.15
+
+  #Image
+  cached_network_image: ^3.2.2
+
+  # State Management
+  mobx: ^2.1.0
+  flutter_mobx: ^2.0.6+4
+
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^2.2.1
+  mobx_codegen: ^2.0.7+3
+  #flutter packages pub run build_runner build --delete-conflicting-outputs
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/flags/
+    - assets/images/
+    - assets/icons/
+
